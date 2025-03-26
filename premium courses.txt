@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nex Genix Business School</title>
+    <link rel="icon" type="image/x-icon" href="favicon-bs.ico">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="responsive.css" />    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Silkscreen:wght@400;700&family=Yellowtail&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<!-- Navigation Bar -->
+<nav id="navbar">
+    <div class="logo">
+        <img src="logo-bs.png" alt="logo" class="logo">
+        <p class="logo-title"><a href="#">NEX GENIX BUSINESS SCHOOL</a></p>
+	<p class="short-title"><a href="#">NGBS</a></p>
+    </div>
+
+        <!-- Hamburger Menu Icon -->
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+
+    <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about_us">About Us</a></li>
+        <li><a href="#products_and_services">Products and Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+	<li><a href="#careers">Careers</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+<div class="auth-buttons" id="auth-buttons">
+    <button onclick="handleLogout()" class="logout-btn">Logout</button>
+    <a href="dashboard.html" class="dashboard-btn">Dashboard</a>
+</div>
+
+</nav>
+
+<!-- PREMIUM COURSES -->
+    <div class="premium-courses-container">
+        <h1>Premium Courses</h1>
+	<img src="online-class.png" alt="online class" class="online-class">
+        <div class="premium-courses-description">Unlock your full potential with our Premium Courses, designed to provide high-quality education tailored to your learning needs. Nex Genix Business School offers these premium courses at affordable fees, ensuring accessibility without compromising on quality. Upon completing a course, participants will receive authenticated certificates featuring a verification code, allowing employers and institutions to verify credentials through our <a href="https://nexgenixbusinessschool.github.io/verify-certificate/">Certificate Verification Page</a> for added credibility. 
+
+Our premium collection is divided into three specialized categories, ensuring a well-rounded and engaging learning experience:</div>
+    </div>
+
+    <div class="premium-courses-products">
+        <div class="product card">
+	    <img src="languages.png" class="lesson1" alt="Lesson 1 Image">
+            <div class="product-title">Language Mastery</div>
+            <div class="product-description">Develop fluency and confidence in communication with expert-led courses in various languages. From foundational grammar to advanced conversation skills, these courses help learners excel in both personal and professional settings.</div>
+            <button class="cta-button">Select</button>
+        </div>
+
+        <div class="product card">
+	    <img src="business.png" class="lesson2" alt="Lesson 2 Image">
+            <div class="product-title">Business Excellence</div>
+            <div class="product-description">Gain essential business skills to thrive in today's competitive world. Covering topics such as entrepreneurship, marketing, financial literacy, and leadership, these courses provide practical knowledge for career growth and business success.</div>
+            <button class="cta-button">Select</button>
+        </div>
+
+        <div class="product card">
+	    <img src="grade-level.png" class="lesson3" alt="Lesson 3 Image">
+            <div class="product-title">Grade-Level Learning Series</div>
+            <div class="product-description">Tailored for K-12 students, this structured learning series aligns with educational standards, covering core subjects like Math, Science, English, and Social Studies to support academic excellence.</div>
+            <button class="cta-button">Select</button>
+        </div>
+    </div>
+
+<div class="premium-courses-description">With interactive lessons, expert guidance, and flexible learning options, our Premium Courses empower students and professionals to achieve their goals with confidence. Enroll today and take the next step toward success!</div>
+
+<!-- FOOTER SECTION -->
+<footer>&copy; 2025 <span>Nex Genix Business School</span> All rights reserved.</footer>
+
+    <!-- JavaScript for Toggle -->
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-list').classList.toggle('active');
+            document.querySelector('.hamburger-menu').classList.toggle('open');
+        }
+    </script>
+
+</body>
+</html>
